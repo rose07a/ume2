@@ -75,6 +75,7 @@ section {
 }
 
 .pics{
+    width:100%;
     height: 580px;
     background-image:url(./img/black.png);
     background-repeat: no-repeat;
@@ -85,21 +86,20 @@ section {
 .slides{
 	display: flex;
 	justify-content: center;
-	width:100%;
+	width:95%;
 }
 
 .slides img{
 	height: 400px;
 	background-clip: content-box;
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 @media (max-width: 800px) {
-	.slides{
-		width:100%;
-		height:250px;
+	.slides img{
+		max-width:100%;
 	}
 }
 
