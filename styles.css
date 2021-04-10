@@ -365,6 +365,10 @@ header nav li {
 
 }
 
+.each h2{
+    font-size:25px;
+}
+
 .each iframe{
     width:95%;
     height:400px;
@@ -382,6 +386,10 @@ header nav li {
 	.each iframe{
         height:300px;
 	}
+
+    .each div{
+        font-size:17px;
+    }
 }
 
 /*Footer Section*/
