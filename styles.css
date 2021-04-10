@@ -516,8 +516,6 @@ footer hr{
         }
 }
 
-
-
 .stick ul{
     position:fixed;
     bottom:0;
@@ -530,10 +528,6 @@ footer hr{
 	justify-content: space-around;
 	align-items: center;
     font-size:16px;
-}
-
-.stick li{
-    padding:0;
 }
 
 .stick img{
