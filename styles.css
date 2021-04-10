@@ -370,6 +370,10 @@ header nav li {
     height:400px;
 }
 
+.each a{
+    color:#000;
+}
+
 @media (max-width: 800px) {
     .info2{
         width:100%;
