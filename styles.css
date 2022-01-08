@@ -631,7 +631,7 @@ footer hr{
    display:flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content:center;
+   justify-content:space-between;
    align-items:center;
    margin: 0 auto;
   }
@@ -640,7 +640,14 @@ footer hr{
     position: relative;
     width: 30%;
     text-align: center;
-    margin:20px auto;
+    margin:10px auto;
+  }
+
+  .locations div.container2{
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin:10px auto;
   }
   
   .locations .image {
@@ -673,6 +680,12 @@ footer hr{
 
   @media (max-width: 800px) {
 	.locations .container{
+        padding-left: 40px;
+        opacity:1;
+        flex-basis:100%;
+    }
+
+    .locations .container2{
         padding-left: 40px;
         opacity:1;
         flex-basis:100%;
@@ -716,6 +729,7 @@ footer hr{
 #online{
     background-color:#DE4347;
     color:#fff;
+    padding-bottom: 20px;
 }
 
 #online .container .overlay{
