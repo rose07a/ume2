@@ -5,7 +5,7 @@
 }
 
 html {
-	font: normal 16px sans-serif;
+	font: normal 16px "Quicksand", sans-serif;
 	color:#000;
 }
 
@@ -185,12 +185,12 @@ header nav li {
 }
 
 .hero h1 {
-	font: bold 60px "Open Sans", sans-serif;
+	font: bold 60px "Quicksand", sans-serif;
 	margin-bottom: 15px;
 }
 
 .hero h3 {
-	font: normal 28px "Open Sans", sans-serif;
+	font: normal 28px "Quicksand", sans-serif;
 	margin-bottom: 40px;
 }
 
@@ -558,16 +558,27 @@ footer hr{
 }
 
 .news{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    width:100%;
+    align-items: left;
     background:#EB9E52;
-    height:60px;
+    height: auto;
+}
+
+.news div{
+    width: 60%;
+    margin: 20px;
+    text-align: left;
+}
+
+@media (max-width: 800px) {
+    .new div{
+    width: 95%;
+    }
 }
 
 .news a{
     color:#000;
-    font-weight: bold;
+    font-weight: 5000;
     text-decoration: underline;
 }
 
@@ -813,4 +824,8 @@ footer hr{
       background: rgba(0, 0, 0, 1);
       opacity:1;
   }
+}
+
+.black{
+    font-color: #000;
 }
