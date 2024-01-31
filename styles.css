@@ -714,6 +714,7 @@ footer hr{
 }
 .menu img{
     width: 45%;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
