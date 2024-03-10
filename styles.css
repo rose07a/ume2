@@ -560,7 +560,7 @@ footer hr{
 .news{
     width:100%;
     align-items: left;
-    background:#EB9E52;
+    background:#FAF6CB;
     height: auto;
 }
 
@@ -635,7 +635,7 @@ footer hr{
 
   #locations{
       padding:10px 0;
-      background:#C8E4EF;
+      background:#FAF6CB;
   }
 
   .locations{
@@ -829,4 +829,8 @@ footer hr{
 
 .black{
     font-color: #000;
+}
+
+.red{
+    color:#DE4347;
 }
